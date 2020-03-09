@@ -1,0 +1,21 @@
+h1 {
+  font-family: $playfair;
+  color:$white;
+  text-align: center;
+  font-size:$font-size-xx-large;
+  font-weight: $playfair-black;
+  font-style: $playfair-italic;
+}
+
+h3 {
+  font-family: $playfair;
+  color:$nickel;
+  font-size: $font-size-large;
+}
+
+p {
+  font-family: $roboto;
+  font-size: $font-size-large;
+  font-weight: $roboto-light;
+  color:$nickel;
+}

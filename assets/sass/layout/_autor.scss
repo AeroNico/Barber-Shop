@@ -1,0 +1,43 @@
+.auto__img--round {
+  border-radius: 50%;
+  border: 1px solid $light-gray;
+}
+
+.autor__h2 {
+  font-family: $playfair;
+  font-weight: $playfair-black;
+  font-style: $playfair-italic;
+  color:$eerie-black;
+  font-size:$font-size-x-large
+}
+
+.autor__span {
+  font-family: $roboto;
+  font-size: $font-size-medium;
+  font-weight: $roboto-light;
+  color:$nickel;
+}
+
+.autor__a--enabled {
+  font-family: $roboto;
+  font-size: $font-size-medium;
+  font-weight: $roboto-light;
+  color:$spanish-pink;
+  &:hover {
+    color:$fuzzy-wuzzy;
+    text-decoration: none;
+  }
+}
+
+@include media-breakpoint-up(lg){
+.autor__links--responsive {
+  padding-left:3rem;
+}
+}
+
+@include media-breakpoint-down(md) {
+  .autor__links--responsive {
+    text-align: center;
+  }
+
+}

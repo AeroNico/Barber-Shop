@@ -1,0 +1,24 @@
+.page-item:first-child .page-link{
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.page-item:last-child .page-link{
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.page-item.active .page-link {
+  background-color: $nickel;
+  border-color: $nickel;
+}
+
+.page-link {
+  color:$nickel;
+  font-family: $roboto;
+  &:hover {
+    color:$nickel;
+    background-color:$light-gray;
+    border-color: $light-gray;
+  }
+}
